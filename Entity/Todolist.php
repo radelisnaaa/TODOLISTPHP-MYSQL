@@ -24,7 +24,7 @@ namespace Entity {
 
         
         public function setTodo(string $todo): void {
-             $this->todo + $todo;
+             $this->todo = $todo;
         }
     
     }
